@@ -4,7 +4,7 @@ import 'ag-grid-community/styles/ag-grid.css';
 import 'ag-grid-community/styles/ag-theme-alpine.css';
 import 'ag-grid-enterprise';
 
-function App2() {
+function EnterpriseOverview() {
   const gridRef = useRef();
 
   const [rowData, setRowData] = useState();
@@ -65,4 +65,4 @@ function App2() {
   );
 }
 
-export default App2;
+export default EnterpriseOverview;

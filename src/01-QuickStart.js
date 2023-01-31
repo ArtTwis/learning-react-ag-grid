@@ -3,7 +3,7 @@ import { AgGridReact } from 'ag-grid-react';
 import 'ag-grid-community/styles/ag-grid.css';
 import 'ag-grid-community/styles/ag-theme-alpine.css';
 
-const App = () => {
+const QuickStart = () => {
   const gridRef = useRef();
 
   const [rowData, setRowData] = useState([
@@ -75,4 +75,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default QuickStart;

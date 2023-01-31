@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
-import App2 from './App2';
+import QuickStart from './01-QuickStart';
+// import EnterpriseOverview from './02-EnterpriseOverview';
+import CustomisingCells from './03-CustomisingCells';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App2 />);
+root.render(<CustomisingCells />);
